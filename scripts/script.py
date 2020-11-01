@@ -16,12 +16,11 @@ def graph_spectrogram(wav_file,C):
     ax.specgram(sound_info,
                 NFFT=1024, #default?
                 Fs=frame_rate)
-    f0 = 730
-    modemax = 4
+    f0 = 1460
+    modemax = 3
     ax.set_yticks([f0*i for i in range(1,modemax+1)])
     ax.set_yticklabels([f'Mode {i} - {round(i*f0/1000,1)} kHz' for i in range(1,modemax+1)])
     for i in range(1,modemax+1): ax.axhline(y=f0*i ,linewidth=1, color='r', ls='--', alpha=0.5)
-
     ax.set_ylim(0,5000)
     ax.axvline(x=C/frames_per_second ,linewidth=4, color='b')
     ax.tick_params(axis='y', colors='k',
