@@ -13,11 +13,11 @@ Append a spectrogram and perform fluid mechanics calculations over a popular fro
 <br>
 <h2><b>Solving for the wavelength in the <a href="https://en.wikipedia.org/wiki/Capillary_wave">capillary</a> regime of waves yields a value for the toad of 6 milimeters</b></h2>
 <br>
-<img src="static/calculation.png" height="200" width="200">
+<img src="static/calculation.png">
 <br>
 <h2><b>The value obtained is off by an order of magnitude, as the American Toad has a size of approximately 6cm</b></h2>
 <br>
-<img src="static/american-toad.png">
+<img src="static/american-toad.png"  height="600" width="600">
 <br>
 <h2><b>What was wrong with the calculation?</b></h2>
 <br>
